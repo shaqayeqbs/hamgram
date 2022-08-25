@@ -12,17 +12,17 @@ const Percent = (props) => {
         </div>
         <div className="bg-[#e7e4e4] rounded-lg p-1 mx-3 text-center">ماه</div>
       </div>
-      <div className="flex justify-between px-16 pl-24 pt-8 pb-8 text-center font-bold ">
+      <div className="flex justify-between px-4 md:px-16 pl-20 md:pl-24 pt-8 pb-8 text-center font-bold ">
         <div>
-          <div className="text-xl text-[#42ab9a] mb-4">{props.engagement}</div>
+          <div className="sm:text-xl text-[#42ab9a] mb-4">{props.engagement}</div>
           <div> انگیجمنت</div>
         </div>
         <div>
-          <div className="text-xl mb-4 text-[#cc355d]">{props.comment}</div>
+          <div className="sm:text-xl mb-4 text-[#cc355d]">{props.comment}</div>
           <div>کامنت </div>
         </div>
         <div>
-          <div className="text-xl text-[#42ab9a] mb-4">{props.like}</div>
+          <div className="sm:text-xl text-[#42ab9a] mb-4">{props.like}</div>
           <div>لایک </div>
         </div>
       </div>

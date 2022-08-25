@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="text-2xl">
         <AiFillCloseCircle />
       </div>
-      <div className="text-lg font-medium">Hamgramco | همگرام</div>
+      <div className="md:text-lg font-medium">Hamgramco | همگرام</div>
     </div>
   );
 };
